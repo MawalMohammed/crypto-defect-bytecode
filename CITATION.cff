@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software or the released artifacts, please cite the paper below."
+title: "Learning to Detect Cryptographic Defects in Ethereum Smart Contracts from Bytecode"
+type: software
+authors:
+  - family-names: "[Surname]"
+    given-names: "[Given Name]"
+    # affiliation: "[Organization]"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+year: 2026
+license: MIT
+abstract: >-
+  Source-free detection of cryptographic defects in Ethereum smart contracts.
+  A source-level analyzer is distilled into bytecode-only classifiers under a
+  clone-cluster split, enabling detection on the unverified majority of on-chain
+  contracts. Includes the labelled bytecode corpus splits, clone clustering,
+  trained models, and the full reproduction pipeline.
+keywords:
+  - smart-contract security
+  - cryptographic defects
+  - EVM bytecode analysis
+  - multi-label classification
+  - knowledge distillation
